@@ -1,0 +1,492 @@
+[
+  {
+    "name": "Pomme",
+    "available_quantity": 29,
+    "unit_price": 12.74
+  },
+  {
+    "name": "Banane",
+    "available_quantity": 172,
+    "unit_price": 14.73
+  },
+  {
+    "name": "Carotte",
+    "available_quantity": 171,
+    "unit_price": 15.84
+  },
+  {
+    "name": "Lait",
+    "available_quantity": 56,
+    "unit_price": 2.52
+  },
+  {
+    "name": "Pain",
+    "available_quantity": 81,
+    "unit_price": 14.41
+  },
+  {
+    "name": "Riz",
+    "available_quantity": 118,
+    "unit_price": 22.38
+  },
+  {
+    "name": "Pâtes",
+    "available_quantity": 124,
+    "unit_price": 9.7
+  },
+  {
+    "name": "Tomate",
+    "available_quantity": 104,
+    "unit_price": 3.59
+  },
+  {
+    "name": "Oignon",
+    "available_quantity": 94,
+    "unit_price": 4.31
+  },
+  {
+    "name": "Ail",
+    "available_quantity": 106,
+    "unit_price": 17.38
+  },
+  {
+    "name": "Poulet",
+    "available_quantity": 79,
+    "unit_price": 13.59
+  },
+  {
+    "name": "Boeuf",
+    "available_quantity": 86,
+    "unit_price": 8.25
+  },
+  {
+    "name": "Jambon",
+    "available_quantity": 132,
+    "unit_price": 4.51
+  },
+  {
+    "name": "Yaourt",
+    "available_quantity": 190,
+    "unit_price": 7.84
+  },
+  {
+    "name": "Fromage",
+    "available_quantity": 44,
+    "unit_price": 10.39
+  },
+  {
+    "name": "Beurre",
+    "available_quantity": 164,
+    "unit_price": 3.09
+  },
+  {
+    "name": "Œufs",
+    "available_quantity": 130,
+    "unit_price": 12.73
+  },
+  {
+    "name": "Farine",
+    "available_quantity": 71,
+    "unit_price": 19.87
+  },
+  {
+    "name": "Sucre",
+    "available_quantity": 64,
+    "unit_price": 12.59
+  },
+  {
+    "name": "Sel",
+    "available_quantity": 199,
+    "unit_price": 0.7
+  },
+  {
+    "name": "Poivre",
+    "available_quantity": 39,
+    "unit_price": 21.62
+  },
+  {
+    "name": "Thé",
+    "available_quantity": 161,
+    "unit_price": 10.56
+  },
+  {
+    "name": "Café",
+    "available_quantity": 32,
+    "unit_price": 24.04
+  },
+  {
+    "name": "Jus d'orange",
+    "available_quantity": 121,
+    "unit_price": 12.12
+  },
+  {
+    "name": "Eau minérale",
+    "available_quantity": 83,
+    "unit_price": 1.19
+  },
+  {
+    "name": "Céréales",
+    "available_quantity": 136,
+    "unit_price": 10.11
+  },
+  {
+    "name": "Biscuits",
+    "available_quantity": 163,
+    "unit_price": 8.62
+  },
+  {
+    "name": "Chocolat",
+    "available_quantity": 174,
+    "unit_price": 7.92
+  },
+  {
+    "name": "Confiture",
+    "available_quantity": 41,
+    "unit_price": 8.71
+  },
+  {
+    "name": "Miel",
+    "available_quantity": 28,
+    "unit_price": 14.92
+  },
+  {
+    "name": "Huile d'olive",
+    "available_quantity": 82,
+    "unit_price": 23.63
+  },
+  {
+    "name": "Huile de tournesol",
+    "available_quantity": 168,
+    "unit_price": 18.26
+  },
+  {
+    "name": "Vinaigre",
+    "available_quantity": 57,
+    "unit_price": 15.95
+  },
+  {
+    "name": "Moutarde",
+    "available_quantity": 142,
+    "unit_price": 15.01
+  },
+  {
+    "name": "Ketchup",
+    "available_quantity": 187,
+    "unit_price": 12.43
+  },
+  {
+    "name": "Mayonnaise",
+    "available_quantity": 120,
+    "unit_price": 17.57
+  },
+  {
+    "name": "Lentilles",
+    "available_quantity": 151,
+    "unit_price": 4.94
+  },
+  {
+    "name": "Haricots",
+    "available_quantity": 10,
+    "unit_price": 5.6
+  },
+  {
+    "name": "Pois chiches",
+    "available_quantity": 97,
+    "unit_price": 10.05
+  },
+  {
+    "name": "Maïs",
+    "available_quantity": 76,
+    "unit_price": 11.12
+  },
+  {
+    "name": "Champignons",
+    "available_quantity": 123,
+    "unit_price": 11.05
+  },
+  {
+    "name": "Épinards",
+    "available_quantity": 37,
+    "unit_price": 12.8
+  },
+  {
+    "name": "Courgette",
+    "available_quantity": 194,
+    "unit_price": 21.89
+  },
+  {
+    "name": "Aubergine",
+    "available_quantity": 147,
+    "unit_price": 11.32
+  },
+  {
+    "name": "Brocoli",
+    "available_quantity": 167,
+    "unit_price": 12.66
+  },
+  {
+    "name": "Chou-fleur",
+    "available_quantity": 168,
+    "unit_price": 24.57
+  },
+  {
+    "name": "Poireau",
+    "available_quantity": 191,
+    "unit_price": 5.33
+  },
+  {
+    "name": "Salade",
+    "available_quantity": 98,
+    "unit_price": 7.23
+  },
+  {
+    "name": "Radis",
+    "available_quantity": 10,
+    "unit_price": 10.21
+  },
+  {
+    "name": "Navet",
+    "available_quantity": 128,
+    "unit_price": 23.06
+  },
+  {
+    "name": "Pomme de terre",
+    "available_quantity": 187,
+    "unit_price": 6.75
+  },
+  {
+    "name": "Orange",
+    "available_quantity": 64,
+    "unit_price": 19.83
+  },
+  {
+    "name": "Citron",
+    "available_quantity": 136,
+    "unit_price": 22.65
+  },
+  {
+    "name": "Pêche",
+    "available_quantity": 79,
+    "unit_price": 24.67
+  },
+  {
+    "name": "Raisin",
+    "available_quantity": 166,
+    "unit_price": 17.14
+  },
+  {
+    "name": "Fraise",
+    "available_quantity": 108,
+    "unit_price": 4.94
+  },
+  {
+    "name": "Framboise",
+    "available_quantity": 40,
+    "unit_price": 17.82
+  },
+  {
+    "name": "Cerise",
+    "available_quantity": 145,
+    "unit_price": 24.96
+  },
+  {
+    "name": "Ananas",
+    "available_quantity": 107,
+    "unit_price": 10
+  },
+  {
+    "name": "Mangue",
+    "available_quantity": 89,
+    "unit_price": 1.77
+  },
+  {
+    "name": "Papaye",
+    "available_quantity": 129,
+    "unit_price": 24.12
+  },
+  {
+    "name": "Avocat",
+    "available_quantity": 100,
+    "unit_price": 13.81
+  },
+  {
+    "name": "Kiwi",
+    "available_quantity": 81,
+    "unit_price": 8.15
+  },
+  {
+    "name": "Pastèque",
+    "available_quantity": 158,
+    "unit_price": 24.93
+  },
+  {
+    "name": "Melon",
+    "available_quantity": 132,
+    "unit_price": 11.02
+  },
+  {
+    "name": "Abricot",
+    "available_quantity": 93,
+    "unit_price": 11.31
+  },
+  {
+    "name": "Noix",
+    "available_quantity": 182,
+    "unit_price": 16.02
+  },
+  {
+    "name": "Amande",
+    "available_quantity": 81,
+    "unit_price": 9.95
+  },
+  {
+    "name": "Noisette",
+    "available_quantity": 34,
+    "unit_price": 14.44
+  },
+  {
+    "name": "Lait d'amande",
+    "available_quantity": 196,
+    "unit_price": 2.01
+  },
+  {
+    "name": "Lait de soja",
+    "available_quantity": 199,
+    "unit_price": 18.53
+  },
+  {
+    "name": "Tofu",
+    "available_quantity": 151,
+    "unit_price": 23.84
+  },
+  {
+    "name": "Crème fraîche",
+    "available_quantity": 119,
+    "unit_price": 4.72
+  },
+  {
+    "name": "Crème dessert",
+    "available_quantity": 166,
+    "unit_price": 15.91
+  },
+  {
+    "name": "Glace",
+    "available_quantity": 24,
+    "unit_price": 10.47
+  },
+  {
+    "name": "Sorbet",
+    "available_quantity": 82,
+    "unit_price": 10.68
+  },
+  {
+    "name": "Savon",
+    "available_quantity": 24,
+    "unit_price": 19.7
+  },
+  {
+    "name": "Shampoing",
+    "available_quantity": 198,
+    "unit_price": 23.35
+  },
+  {
+    "name": "Gel douche",
+    "available_quantity": 18,
+    "unit_price": 23.52
+  },
+  {
+    "name": "Dentifrice",
+    "available_quantity": 181,
+    "unit_price": 17.77
+  },
+  {
+    "name": "Brosse à dents",
+    "available_quantity": 24,
+    "unit_price": 21.75
+  },
+  {
+    "name": "Papier toilette",
+    "available_quantity": 99,
+    "unit_price": 21.95
+  },
+  {
+    "name": "Essuie-tout",
+    "available_quantity": 16,
+    "unit_price": 5.62
+  },
+  {
+    "name": "Lessive",
+    "available_quantity": 26,
+    "unit_price": 4.9
+  },
+  {
+    "name": "Adoucissant",
+    "available_quantity": 54,
+    "unit_price": 8.65
+  },
+  {
+    "name": "Produit vaisselle",
+    "available_quantity": 15,
+    "unit_price": 24.56
+  },
+  {
+    "name": "Éponge",
+    "available_quantity": 177,
+    "unit_price": 2.92
+  },
+  {
+    "name": "Sac poubelle",
+    "available_quantity": 85,
+    "unit_price": 19.46
+  },
+  {
+    "name": "Aluminium",
+    "available_quantity": 120,
+    "unit_price": 17.74
+  },
+  {
+    "name": "Film plastique",
+    "available_quantity": 36,
+    "unit_price": 17.86
+  },
+  {
+    "name": "Serviettes en papier",
+    "available_quantity": 145,
+    "unit_price": 22.24
+  },
+  {
+    "name": "Bougies",
+    "available_quantity": 172,
+    "unit_price": 24.92
+  },
+  {
+    "name": "Allumettes",
+    "available_quantity": 114,
+    "unit_price": 16.69
+  },
+  {
+    "name": "Briquet",
+    "available_quantity": 160,
+    "unit_price": 5.89
+  },
+  {
+    "name": "Bouteille de gaz",
+    "available_quantity": 13,
+    "unit_price": 1.31
+  },
+  {
+    "name": "Pile",
+    "available_quantity": 156,
+    "unit_price": 14.32
+  },
+  {
+    "name": "Ampoule",
+    "available_quantity": 110,
+    "unit_price": 20.9
+  },
+  {
+    "name": "Lampe torche",
+    "available_quantity": 181,
+    "unit_price": 16.08
+  }
+]

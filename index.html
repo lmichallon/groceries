@@ -8,7 +8,36 @@
     <title>Groceries</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <header class="text-black shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center p-4">
+          <a href="#" class="text-xl font-bold">🛒 Groceries</a>
+          <ul class="flex space-x-4">
+            <li>
+              <a href="/liste.html">Liste de course</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main class="mx-12">
+      <div class="py-12 flex gap-4">
+        <h1 class="text-2xl font-bold">Produits disponibles</h1>
+        <span
+          id="items-count"
+          class="flex items-center bg-purple-700 text-white text-xs py-1 px-2 rounded-full"
+        />
+      </div>
+      <div class="flex gap-4 items-center">
+        <label for="filter-select" class="font-bold">Trier par :</label>
+        <select id="filter-select" class="border p-2 rounded">
+          <option value="">Par défaut</option>
+          <option value="name">Ordre alphabétique</option>
+          <option value="unit_price">Prix croissant</option>
+        </select>
+      </div>
+      <div id="items-container" class="grid grid-cols-12 gap-2"></div>
+    </main>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
