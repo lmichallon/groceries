@@ -28,7 +28,7 @@ export const addProductCard = (item, domTarget) => {
   cta.addEventListener("click", () => {
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
     if (!cart.some((cartItem) => cartItem.name === item.name)) {
-      cart.push(item);
+      cart.push({ ...item, quantity: 1 });
       localStorage.setItem("cart", JSON.stringify(cart));
     }
   });

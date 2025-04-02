@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/styles.css" rel="stylesheet" />
+    <title>Panier</title>
+  </head>
+  <body>
+    <header class="text-black shadow-lg">
+      <nav class="container mx-auto flex justify-between items-center p-4">
+        <a href="/index.html" class="text-xl font-bold">🛒 Groceries</a>
+        <ul class="flex space-x-4">
+          <li>
+            <a href="/panier">Liste de course</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="mx-12">
+      <div class="py-12">
+        <h1 class="text-2xl font-bold">Votre Panier</h1>
+      </div>
+      <table
+        class="w-full border-collapse border border-gray-200 shadow-lg rounded-lg"
+      >
+        <thead>
+          <tr class="bg-gray-100">
+            <th class="p-2">Produit</th>
+            <th class="p-2">Prix Unitaire</th>
+            <th class="p-2">Quantité</th>
+            <th class="p-2">Total</th>
+            <th class="p-2">Action</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items"></tbody>
+      </table>
+      <div class="mt-4 text-right text-xl font-bold">
+        Total : <span id="total-price">0</span> €
+      </div>
+    </main>
+    <script type="module" src="/src/cart.js"></script>
+  </body>
+</html>
