@@ -40,3 +40,20 @@ export const addProductCard = (item, domTarget) => {
 
   domTarget.appendChild(card);
 };
+
+export const renderItems = (itemsList,itemsContainer) => {
+  itemsContainer.innerHTML = "";
+  addItemsCount(itemsList, "#items-count");
+  itemsList.forEach((item) => addProductCard(item, itemsContainer));
+};
+
+export const sortItems = (items, criteria) => {
+  const sorted = [...items];
+  if (criteria === 'name') {
+    sorted.sort((a, b) => a.name.localeCompare(b.name));
+  } 
+  else if (criteria === 'unit_price') {
+    sorted.sort((a, b) => a.unit_price - b.unit_price);
+  }
+  return sorted;
+};
