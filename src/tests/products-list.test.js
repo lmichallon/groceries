@@ -85,7 +85,7 @@ test('Le produit est bien ajouté dans la liste de courses via le LocalStorage',
 
   const listArticles = itemsContainer.querySelectorAll("article");
   for (let i = 0; i <= 1; i++) {
-    let addToCartButton = listArticles[i].querySelector('#add-to-cart-button');    // "Pomme" article
+    let addToCartButton = listArticles[i].querySelector('#add-to-cart-button');    // "Pomme" & "Banane" articles
 
     addToCartButton.click();
     addToCartButton.click();      // Clicking a second time for check than the product is added only once time in the LocalStorage
