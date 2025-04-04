@@ -58,8 +58,8 @@ test('Le tri par ordre alphabétique fonctionne bien', () => {
 
   const listArticles = itemsContainer.querySelectorAll("article");
   const listArticlesLength = listArticles.length; 
-  const firstItemName = listArticles[0].querySelector('h3')?.textContent;
-  const lastItemName = listArticles[listArticlesLength - 1].querySelector('h3')?.textContent;
+  const firstItemName = listArticles[0].querySelector('h3')?.textContent;   // "Ail" article
+  const lastItemName = listArticles[listArticlesLength - 1].querySelector('h3')?.textContent;   // "Yaourt" article
 
   expect(firstItemName).toBe("Ail");
   expect(lastItemName).toBe("Yaourt");
@@ -72,9 +72,27 @@ test('Le tri par prix fonctionne bien', () => {
 
   const listArticles = itemsContainer.querySelectorAll("article");
   const listArticlesLength = listArticles.length; 
-  const firstItemName = listArticles[0].querySelector('h3')?.textContent;
-  const lastItemName = listArticles[listArticlesLength - 1].querySelector('h3')?.textContent;
+  const firstItemName = listArticles[0].querySelector('h3')?.textContent;  // "Sel" article
+  const lastItemName = listArticles[listArticlesLength - 1].querySelector('h3')?.textContent;   // "Riz" article
 
   expect(firstItemName).toBe("Sel");
   expect(lastItemName).toBe("Riz");
+});
+
+// Adding product to LocalStorage test
+test('Le produit est bien ajouté dans la liste de courses via le LocalStorage', () => {
+  localStorage.clear();
+
+  const listArticles = itemsContainer.querySelectorAll("article");
+  for (let i = 0; i <= 1; i++) {
+    let addToCartButton = listArticles[i].querySelector('#add-to-cart-button');    // "Pomme" article
+
+    addToCartButton.click();
+    addToCartButton.click();      // Clicking a second time for check than the product is added only once time in the LocalStorage
+  }
+
+  const cart = JSON.parse(localStorage.getItem('cart'));
+  expect(cart).toHaveLength(2);
+  expect(cart[0].name).toBe("Pomme");
+  expect(cart[1].name).toBe("Banane");
 });
